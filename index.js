@@ -7,7 +7,7 @@ var addressBook = [];
 const showList = function () {
   output.innerHTML = " ";
   addressBook.map((data,index) =>{
-    var a = document.createElement("");
+    var a = document.createElement("li");
     a.innerHTML = data;
     output.appendChild(a)
   })
